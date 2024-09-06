@@ -12,8 +12,40 @@ b) Podem existir dias sem faturamento, como nos finais de semana e feriados. Est
 '''
 import json
 
-# Abrindo o arquivo "distribuidora.json"
-with open('Ex03-Dados_Distribuidora.json', 'r') as arquivo:
+
+# Abrindo o arquivo "Ex03-Distribuidora.json"
+with open('Ex03-Distribuidora.json', 'r') as arquivo:
     dados = json.load(arquivo)
 
-print(dados['faturamento'].keys())
+
+meses = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro']
+faturamento = []
+
+
+for meses in dados['faturamento']:# Acessa "Meses : Dias" 
+
+    for dias in meses.values():# Acessa "Dias" em Meses
+        valor = 0
+
+        for valor_dia in dias.values():# Acessa "Valores" dos dias
+            
+            if valor_dia == 0:
+                continue
+            else:
+                valor += valor_dia
+
+        faturamento.append(valor)
+
+
+            
+    
+    # Extrair os valores de faturamento de todos os dias
+        # for dia, valor in dias.items():
+
+        
+
+
+
+# valores = list(dias.values()) # Pega o Faturamento mensal de cada mês em forma de lista
+# print(sum(valores))
+# faturamento.append(dia)

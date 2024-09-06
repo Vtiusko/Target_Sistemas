@@ -41,5 +41,5 @@ def gerar_dados_distribuidora(ano):
 dados_distribuidora = gerar_dados_distribuidora(2024)
 
 # Salvando em um arquivo JSON
-with open('distribuidora.json', 'w', encoding='utf-8') as f:
+with open('Ex03-Distribuidora.json', 'w', encoding='utf-8') as f:
     json.dump(dados_distribuidora, f, indent=4)
