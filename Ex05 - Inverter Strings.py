@@ -8,6 +8,6 @@ b) Evite usar funções prontas, como, por exemplo, reverse;
 texto1 = str(input('Digite alguma coisa: '))
 texto2 = f'!atartnoc eM'
 
-print(texto2[::-1], '\n', texto1[::-1].strip())
+print(texto2[::-1], '\n', texto1[::-1])
 
 
