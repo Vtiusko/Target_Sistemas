@@ -10,11 +10,11 @@
 <br>
 
 ### O por que deste repositório?💾
-- O intuito deste repositório é poder demonstrar meu aprendizado, resolvendo alguns exercícios propróstos pela empresa Target Sistemas, totalizando 5 exercícios ao todo!📲
+- O intuito deste repositório é poder demonstrar meu aprendizado, resolvendo alguns exercícios propróstos pela empresa Target Sistemas!📲
 
 <br>
 
-### Quantos exercícios são?📝
+### Descrição dos exercícios📝
 - Exercício 1📝 - <em>Mostrar o valor final de "SOMA"</em>
 - Exercício 2📝 - <em>Mostrar se um número pertence ou não à "SEQUÊNCIA FIBONACCI"</em>
 - Exercício 3📝 - Mostrar quais foram o...
