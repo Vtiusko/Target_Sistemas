@@ -29,13 +29,12 @@
 <br>
 
 ### Bibliotecas utilizadas: 📝
-- Mundo 1 🌎:
-    - 📋 - JSON
-    - 😊 - FAKER
-    - 🎲 - RANDOM
-    - ⏳ - DATETIME
-    - 📆 - CALENDAR
-    - 🌈 - COLORAMA
+  - 📋 - JSON
+  - 😊 - FAKER
+  - 🎲 - RANDOM
+  - ⏳ - DATETIME
+  - 📆 - CALENDAR
+  - 🌈 - COLORAMA
 
 
   <br>
